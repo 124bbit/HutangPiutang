@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script defer src="../js/index.js"></script>
+    <script defer type="module" src="../node_modules/js-cookie/src/js.cookie.js"></script>
+    <link rel="stylesheet" href="../assets/style.css">
+</head>
+
+<body>
+    <div class="login">
+        <form autocomplete="off" id="login-form">
+            <h2>Login</h2>
+            <label>Username</label>
+            <input type="text" name="username" id="username" placeholder="username...">
+            <label>Password</label>
+            <input type="password" name="password" id="password" placeholder="password...">
+            <div class="button-container">
+                <button class="btnlogin" onclick="login(event)">Login</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

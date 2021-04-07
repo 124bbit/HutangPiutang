@@ -1,0 +1,18 @@
+{
+    "User": [
+        {
+            "id": 1,
+            "Username": "Robit",
+            "Password": "123456",
+            "Email": "Robit@gmail.com",
+            "RoleId": 1
+        },
+        {
+            "id": 1,
+            "Username": "windah",
+            "Password": "asdasd",
+            "Email": "windah@gmail.com",
+            "RoleId": 0
+        }
+    ]
+}
