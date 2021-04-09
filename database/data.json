@@ -1,0 +1,41 @@
+{
+    "hutang": [
+        {
+            "Nama": "Robit",
+            "JenisCatatan": "Hutang",
+            "JumlahUang": 75000,
+            "Keterangan": "-",
+            "id": 1
+        },
+        {
+            "Nama": "Aang",
+            "JenisCatatan": "Hutang",
+            "JumlahUang": 50000,
+            "Keterangan": "Beli makan ",
+            "id": 2
+        }
+    ],
+    "piutang": [
+        {
+            "Nama": "Robit",
+            "JenisCatatan": "Piutang",
+            "JumlahUang": 75000,
+            "Keterangan": "-",
+            "id": 1
+        },
+        {
+            "Nama": "Aang",
+            "JenisCatatan": "Piutang",
+            "JumlahUang": 50000,
+            "Keterangan": "Beli makan ",
+            "id": 2
+        },
+        {
+            "Nama": "windah",
+            "JenisCatatan": "Piutang",
+            "JumlahUang": 78000,
+            "Keterangan": "Nasi padang ",
+            "id": 3
+        }
+    ]
+}

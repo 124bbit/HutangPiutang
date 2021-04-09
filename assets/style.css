@@ -54,6 +54,49 @@ table {
 body{
     font-family: sans-serif;
   }
+  h1{
+	  margin-bottom: 50px;
+	  font-size: 24px;
+	  font-weight: bold;
+	  border-bottom: 1px solid #f2f2;
+	  padding-bottom: 20px;
+  }
+
+  /* Navbar */
+  .navbar{
+    background-color: #f0e4d7;
+    padding: 0;
+    margin: 0;
+    /* margin: 12px auto; */
+    min-width: 600px;
+    text-align: center;
+    border-radius: 12px;
+  
+  }
+  .logo-nav{
+    margin-right: 100px;
+    font-size: 32px;
+  }
+  nav ul li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    
+  }
+  li a{
+    color: #393e46;
+    list-style-type:none;
+    text-decoration: none;
+    padding: 5px 8px;
+    
+  }
+  li a:hover{
+    color:#fff;
+    background-color: #ff7171;
+    border:1px solid #fff;
+    border-radius: 6px;
+  }
+  /* Akhir Navbar */
 
 /* Login page */
 
@@ -108,5 +151,49 @@ body{
   font-size: 20px;
  }
 
-
 /* Akhir Login page*/
+
+
+
+/* Home Page */
+
+.home{
+	padding-top: 100px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid black;
+  }
+  table {
+    border-spacing: 5px;
+    width: 100%;
+  }
+  thead{
+    background-color: #ff7171;
+    color:white
+  }
+  th,td {
+    padding: 1em;
+  }
+  .btnUpdate{
+    background: #0595b9;
+    border: 0;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin:1em;
+    color:#f0e4d7;
+   }
+   .btnDelete{
+    background: #c74747;
+    color: #f0e4d7;
+    border: 0;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin:1em;
+   }
+   
+/* Akhir Home Page */

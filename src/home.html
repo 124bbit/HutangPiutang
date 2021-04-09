@@ -6,10 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <script defer type="module" src="../node_modules/js-cookie/src/js.cookie.js"></script>
+    <script defer src="../js/home.js"></script>
+    <link rel="stylesheet" href="../assets/style.css">
 </head>
 
+
 <body>
-    <h1>Home</h1>
+    <nav class="navbar">
+        <ul id="navbar-links">
+            <li class="logo-nav">logo</li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tambah.html">Tambah Catatan</a></li>
+            <li><a onclick="logout()">Logout</a></li>
+
+        </ul>
+    </nav>
+
+    <div class="home">
+        <h1>Catatan Hutang & Piutang</h1>
+        <table id="tbl">
+            <thead>
+                <tr>
+                    <th>Nama</th>
+                    <th>Jenis Catatan</th>
+                    <th>Jumlah Uang</th>
+                    <th>Keterangan</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="catatan-tabel">
+
+            </tbody>
+
+
+        </table>
+    </div>
 </body>
+
 
 </html>
