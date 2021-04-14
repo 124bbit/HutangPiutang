@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tambah Catatan</title>
+    <script src="../node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="../node_modules/sweetalert2/dist/sweetalert2.css">
+    <script defer src="../js/create.js"></script>
+    <link rel="stylesheet" href="../assets/style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li class="logo-nav">logo</li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="tambah.html">Tambah Catatan</a></li>
+            <li><a onclick="logout()">Logout</a></li>
+        </ul>
+    </nav>
+
+    <div class="create">
+        <h2 class="header-tambah">Tambah Catatan</h2>
+        <form>
+            <label>Nama:</label>
+            <input type="text" required placeholder="Nama" id="nama" />
+            <label>Hutang / Piutang:</label>
+            <select value="desc" id="desc">
+                <option value="Hutang">Hutang</option>
+                <option value="Piutang">Piutang</option>
+            </select>
+            <label>Jumlah Uang</label>
+            <input type="number" id="jmluang" required placeholder="Jumlah Uang (Rp.)">
+            <label>Keterangan:</label>
+            <textarea id="keterangan" required placeholder="Keterangan .."></textarea>
+            <button onclick="addCatatan(event)">Tambah</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
